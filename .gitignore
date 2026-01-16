@@ -1,0 +1,9 @@
+# Reference implementations (not part of the extension)
+context/
+
+# Environment variables (API keys)
+.env
+
+# web-ext
+web-ext-artifacts/
+.amo-upload-uuid

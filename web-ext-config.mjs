@@ -10,6 +10,9 @@ export default {
     "README.md",
     "web-ext-config.mjs"
   ],
+  build: {
+    overwriteDest: true
+  },
   sign: {
     channel: "unlisted"
   }

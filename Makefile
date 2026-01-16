@@ -32,4 +32,4 @@ endif
 	git commit -m "Release v$(VERSION)"
 	git tag -a "v$(VERSION)" -m "Release v$(VERSION)"
 	git push origin main --tags
-	gh release create "v$(VERSION)" web-ext-artifacts/*.zip --title "v$(VERSION)" --notes "Release v$(VERSION)"
+	gh release create "v$(VERSION)" web-ext-artifacts/*.xpi --title "v$(VERSION)" --notes "Release v$(VERSION)"
